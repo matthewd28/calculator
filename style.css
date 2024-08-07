@@ -31,7 +31,7 @@ main {
     justify-content: space-around;
     align-items: flex-end;
     padding: 10px;
-
+    overflow: hidden;
 
 }
 
