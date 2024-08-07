@@ -1,0 +1,89 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: monospace;
+    height: 100vh;
+    background-color: #bffcd3;
+}
+
+#container {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 249, 159);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#screen {
+    background-color: #bff8fc;
+    height: 80px;
+    border: 5px solid black;
+    border-radius: 5px;
+    font-size: 75px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 10px;
+
+
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#rowOne, #rowTwo, #rowThree, #rowFour, #rowFive {
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+}
+
+button {
+    flex: 1 1 auto;
+    font-size: 25px;
+    border: 1 px solid black;
+    border-radius: 10px;
+    width: 85px;
+    height: 85px;
+    
+}
+
+#rowFive .zero {
+    width: 185px;
+
+}
+
+#clear, #plusMinus, #percent {
+    background-color: rgb(67, 195, 255);
+}
+
+#clear:active, #plusMinus:active, #percent:active  {
+    background-color: rgba(144, 220, 255, 0.897)
+}
+
+.operand, #dot {
+    background-color: hsl(39, 95%, 57%);
+}
+
+.operand:active, #dot:active {
+    background-color: hsl(39, 100%, 73%);
+}
+
+.operator {
+    background-color: #e2e2e2;
+}
+
+.operator:active {
+    background-color: #f7f7f7;
+}
+
